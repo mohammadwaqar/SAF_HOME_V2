@@ -1,0 +1,830 @@
+/*--- Mobile portrait ---*/
+@media (min-width: 320px) and (max-width: 480px) {
+  header {
+    padding: 10px 0;
+  }
+  .logo_text h2 {
+    font-size: 16px;
+  }
+  .logo_text h3 {
+    font-size: 16px;
+  }
+  .logo_iocn img {
+    width: 75%;
+  }
+  .logo_text {
+    padding-left: 0px;
+  }
+  .banner_box .banner_text p {
+    white-space: nowrap;
+    font-size: 8px;
+    width: 150px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner_box .banner_text h3 {
+    font-size: 9px;
+    margin-bottom: 5px;
+  }
+  .banner_box .banner_text .banner_btn a {
+    border: 1px solid #ffffff;
+    font-size: 6px;
+    padding: 4px 4px;
+  }
+  .banner_box .banner_text_box {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+  .gallery_left_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .gallery_left_box .photo_card {
+    max-width: calc(93.3% / 1);
+  }
+  .gallery_right_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .register_form_box .register_form .register_box .form_box_identity {
+    min-width: 256px;
+    width: 100%;
+  }
+  .service_card {
+    max-width: calc(83.3% / 2);
+    width: 100%;
+  }
+  .left_card_register {
+    max-width: 100%;
+    width: 100%;
+  }
+  .left_card_register .register_card {
+    max-width: calc(92.45% /1);
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .reg_form_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .branches_sec .card_branches {
+    max-width: calc(92.9% / 1);
+    width: 100%;
+  }
+  .partner_sec .partner_card {
+    max-width: calc(82.4% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card .partner_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .partner_sec .partner_card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tab_gallery ul li:nth-child(1) {
+    padding: 4px 18px;
+  }
+  .tab_gallery ul li:nth-child(2) {
+    padding: 4px 18px;
+  }
+  .tab_gallery {
+    padding-right: 0px;
+  }
+  .container_footer .footer_box {
+    max-width: calc(90.4% / 2);
+    width: 100%;
+    margin: 0 8px;
+  }
+  .container_footer .footer_box ul li a {
+    font-size: 11px;
+  }
+  .register_form_box .register_form .register_box .btn_submit button {
+    font-size: 12px;
+    padding: 10px 50px;
+  }
+  .register_form img {
+    height: 220px;
+  }
+}
+
+/*--- Mobile landscape ---*/
+@media (min-width: 480px) and (max-width: 595px) {
+  header {
+    padding: 10px 0;
+  }
+  .logo_text h2 {
+    font-size: 16px;
+  }
+  .logo_text h3 {
+    font-size: 16px;
+  }
+  .logo_iocn img {
+    width: 75%;
+  }
+  .logo_text {
+    padding-left: 0px;
+  }
+  .banner_box .banner_text p {
+    white-space: nowrap;
+    font-size: 12px;
+    width: 280px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner_box .banner_text h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .banner_box .banner_text .banner_btn a {
+    border: 1px solid #ffffff;
+    font-size: 8px;
+    padding: 4px 10px;
+  }
+  .banner_box .banner_text_box {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+  }
+  .gallery_left_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .gallery_left_box .photo_card {
+    max-width: calc(90.92% / 2);
+  }
+  .gallery_left_box .photo_card h6 {
+    font-size: 12px;
+  }
+  .gallery_right_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .register_form_box .register_form .register_box .form_box_identity {
+    min-width: 300px;
+    width: 100%;
+  }
+  .service_card {
+    max-width: calc(87.3% / 2);
+    width: 100%;
+  }
+  .left_card_register {
+    max-width: 100%;
+    width: 100%;
+  }
+  .left_card_register .register_card {
+    max-width: calc(86.49% /2);
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .left_card_register .register_card .register_text .reg_btn a {
+    padding: 8px 14px !important;
+    margin: auto;
+    font-size: 12px;
+  }
+  .left_card_register .register_card .register_text h4 {
+    font-size: 14px;
+  }
+  .reg_form_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .branches_sec .card_branches {
+    max-width: calc(88.9% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card {
+    max-width: calc(82.4% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card .partner_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .partner_sec .partner_card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tab_gallery ul li:nth-child(1) {
+    padding: 4px 18px;
+  }
+  .tab_gallery ul li:nth-child(2) {
+    padding: 4px 18px;
+  }
+  .tab_gallery {
+    padding-right: 0px;
+  }
+  .container_footer .footer_box {
+    max-width: calc(90.4% / 2);
+    width: 100%;
+    margin: 0 8px;
+  }
+  .container_footer .footer_box ul li a {
+    font-size: 11px;
+  }
+  .register_form_box .register_form .register_box .btn_submit button {
+    font-size: 12px;
+    padding: 10px 50px;
+  }
+  .register_form img {
+    height: 220px;
+  }
+}
+
+/*--- Small tablet portrait ---*/
+@media (min-width: 595px) and (max-width: 690px) {
+  header {
+    padding: 10px 0;
+  }
+  .logo_text h2 {
+    font-size: 16px;
+  }
+  .logo_text h3 {
+    font-size: 16px;
+  }
+  .logo_iocn img {
+    width: 75%;
+  }
+  .logo_text {
+    padding-left: 0px;
+  }
+  .banner_box .banner_text p {
+    white-space: nowrap;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner_box .banner_text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .banner_box .banner_text .banner_btn a {
+    border: 1px solid #ffffff;
+    font-size: 10px;
+    padding: 10px 14px;
+  }
+  .banner_box .banner_text_box {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+  }
+  .gallery_left_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .gallery_left_box .photo_card {
+    max-width: calc(91.92% / 2);
+  }
+  .gallery_right_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .service_card {
+    max-width: calc(89.3% / 2);
+    width: 100%;
+  }
+  .left_card_register {
+    max-width: 100%;
+    width: 100%;
+  }
+  .left_card_register .register_card {
+    max-width: calc(89.49% /2);
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .reg_form_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .branches_sec .card_branches {
+    max-width: calc(91.9% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card {
+    max-width: calc(82.4% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card .partner_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .partner_sec .partner_card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tab_gallery ul li:nth-child(1) {
+    padding: 4px 18px;
+  }
+  .tab_gallery ul li:nth-child(2) {
+    padding: 4px 18px;
+  }
+  .tab_gallery {
+    padding-right: 0px;
+  }
+  .container_footer .footer_box {
+    max-width: calc(90.4% / 2);
+    width: 100%;
+    margin: 0 8px;
+  }
+  .container_footer .footer_box ul li a {
+    font-size: 11px;
+  }
+  .register_form_box .register_form .register_box .btn_submit button {
+    font-size: 12px;
+    padding: 10px 50px;
+  }
+  .register_form img {
+    height: 220px;
+  }
+}
+
+@media (min-width: 690px) and (max-width: 800px) {
+  header {
+    padding: 10px 0;
+  }
+  .logo_text h2 {
+    font-size: 16px;
+  }
+  .logo_text h3 {
+    font-size: 16px;
+  }
+  .logo_iocn img {
+    width: 75%;
+  }
+  .logo_text {
+    padding-left: 0px;
+  }
+  .banner_box .banner_text p {
+    white-space: nowrap;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner_box .banner_text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .banner_box .banner_text .banner_btn a {
+    border: 1px solid #ffffff;
+    font-size: 10px;
+    padding: 10px 14px;
+  }
+  .banner_box .banner_text_box {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+  }
+  .gallery_left_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .gallery_left_box .photo_card {
+    max-width: calc(93.92% / 2);
+  }
+  .gallery_right_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .service_card {
+    max-width: calc(91.3% / 2);
+    width: 100%;
+  }
+  .left_card_register {
+    max-width: 100%;
+    width: 100%;
+  }
+  .left_card_register .register_card {
+    max-width: calc(91.49% /2);
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .reg_form_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .branches_sec .card_branches {
+    max-width: calc(92.9% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card {
+    max-width: calc(82.4% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card .partner_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .partner_sec .partner_card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tab_gallery ul li:nth-child(1) {
+    padding: 4px 18px;
+  }
+  .tab_gallery ul li:nth-child(2) {
+    padding: 4px 18px;
+  }
+  .tab_gallery {
+    padding-right: 0px;
+  }
+  .container_footer .footer_box {
+    max-width: calc(90.4% / 2);
+    width: 100%;
+    margin: 0 8px;
+  }
+  .container_footer .footer_box ul li a {
+    font-size: 11px;
+  }
+  .register_form_box .register_form .register_box .btn_submit button {
+    font-size: 12px;
+    padding: 10px 50px;
+  }
+  .register_form img {
+    height: 220px;
+  }
+}
+
+/*--- Small tablet landscape ---*/
+@media (min-width: 800px) and (max-width: 1024px) {
+  header {
+    padding: 10px 0;
+  }
+  .logo_text h2 {
+    font-size: 16px;
+  }
+  .logo_text h3 {
+    font-size: 16px;
+  }
+  .logo_iocn img {
+    width: 75%;
+  }
+  .logo_text {
+    padding-left: 0px;
+  }
+  .banner_box .banner_text p {
+    white-space: nowrap;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner_box .banner_text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .banner_box .banner_text .banner_btn a {
+    border: 1px solid #ffffff;
+    font-size: 10px;
+    padding: 10px 14px;
+  }
+  .banner_box .banner_text_box {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+  }
+  .gallery_left_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .gallery_left_box .photo_card {
+    max-width: calc(94.92% / 2);
+  }
+  .gallery_right_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .service_card {
+    max-width: calc(92.3% / 2);
+    width: 100%;
+  }
+  .left_card_register {
+    max-width: 100%;
+    width: 100%;
+  }
+  .left_card_register .register_card {
+    max-width: calc(91.49% /2);
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .reg_form_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .branches_sec .card_branches {
+    max-width: calc(93.90% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card {
+    max-width: calc(82.4% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card .partner_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .partner_sec .partner_card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tab_gallery ul li:nth-child(1) {
+    padding: 4px 18px;
+  }
+  .tab_gallery ul li:nth-child(2) {
+    padding: 4px 18px;
+  }
+  .tab_gallery {
+    padding-right: 0px;
+  }
+  .container_footer .footer_box {
+    max-width: calc(90.4% / 2);
+    width: 100%;
+    margin: 0 8px;
+  }
+  .container_footer .footer_box ul li a {
+    font-size: 11px;
+  }
+  .register_form_box .register_form .register_box .btn_submit button {
+    font-size: 12px;
+    padding: 10px 50px;
+  }
+  .register_form img {
+    height: 220px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 10px 0;
+  }
+  .logo_text h2 {
+    font-size: 16px;
+  }
+  .logo_text h3 {
+    font-size: 16px;
+  }
+  .logo_iocn img {
+    width: 75%;
+  }
+  .logo_text {
+    padding-left: 0px;
+  }
+  .banner_box .banner_text p {
+    white-space: nowrap;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner_box .banner_text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .banner_box .banner_text .banner_btn a {
+    border: 1px solid #ffffff;
+    font-size: 10px;
+    padding: 10px 14px;
+  }
+  .banner_box .banner_text_box {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+  }
+  .gallery_left_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .gallery_left_box .photo_card {
+    max-width: calc(93.92% / 2);
+  }
+  .gallery_right_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .service_card {
+    max-width: calc(91.3% / 2);
+    width: 100%;
+  }
+  .left_card_register {
+    max-width: 100%;
+    width: 100%;
+  }
+  .left_card_register .register_card {
+    max-width: calc(91.49% /2);
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .reg_form_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .branches_sec .card_branches {
+    max-width: calc(92.90% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card {
+    max-width: calc(82.4% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card .partner_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .partner_sec .partner_card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tab_gallery ul li:nth-child(1) {
+    padding: 4px 18px;
+  }
+  .tab_gallery ul li:nth-child(2) {
+    padding: 4px 18px;
+  }
+  .tab_gallery {
+    padding-right: 0px;
+  }
+  .container_footer .footer_box {
+    max-width: calc(90.4% / 2);
+    width: 100%;
+    margin: 0 8px;
+  }
+  .container_footer .footer_box ul li a {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1224px) {
+  header {
+    padding: 10px 0;
+  }
+  .logo_text h2 {
+    font-size: 16px;
+  }
+  .logo_text h3 {
+    font-size: 16px;
+  }
+  .logo_iocn img {
+    width: 75%;
+  }
+  .logo_text {
+    padding-left: 0px;
+  }
+  .banner_box .banner_text p {
+    white-space: nowrap;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner_box .banner_text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .banner_box .banner_text .banner_btn a {
+    border: 1px solid #ffffff;
+    font-size: 10px;
+    padding: 10px 14px;
+  }
+  .banner_box .banner_text_box {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+  }
+  .gallery_left_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .gallery_left_box .photo_card {
+    max-width: calc(93.92% / 2);
+  }
+  .gallery_right_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .service_card {
+    max-width: calc(91.3% / 2);
+    width: 100%;
+  }
+  .left_card_register {
+    max-width: 100%;
+    width: 100%;
+  }
+  .left_card_register .register_card {
+    max-width: calc(91.49% /2);
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .reg_form_box {
+    max-width: 100%;
+    width: 100%;
+  }
+  .branches_sec .card_branches {
+    max-width: calc(92.90% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card {
+    max-width: calc(82.4% / 2);
+    width: 100%;
+  }
+  .partner_sec .partner_card .partner_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .partner_sec .partner_card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .tab_gallery ul li:nth-child(1) {
+    padding: 4px 18px;
+  }
+  .tab_gallery ul li:nth-child(2) {
+    padding: 4px 18px;
+  }
+  .tab_gallery {
+    padding-right: 0px;
+  }
+  .container_footer .footer_box {
+    max-width: calc(90.4% / 2);
+    width: 100%;
+    margin: 0 8px;
+  }
+  .container_footer .footer_box ul li a {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1225px) and (max-width: 1379px) {
+  .service_card {
+    max-width: calc(90.3% / 4);
+  }
+  .left_card_register {
+    max-width: 797px;
+    width: 100%;
+  }
+  .branches_sec .card_branches {
+    max-width: calc(91.9% / 4);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1224px) {
+  .desk_menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1224px) {
+  .mobile_menu {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 3.8rem;
+    top: 15px;
+    right: 12px;
+    z-index: 9999;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
